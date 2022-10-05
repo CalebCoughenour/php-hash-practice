@@ -1,11 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Mock Title</title>
-</head>
-<body>
+<?php
+  require "header.php";
+?>
 
-  <?php
+  <main>
+    
+  </main>
+
+<?php
+  require "footer.php";
+?>
+
+
+
+
+
+
+
+
+
+
+  <!-- PASSWORD HASH PRACTICE -->
+  <!-- <?php
     // password_hash takes in the password and a method to hash the password
     // echo "test123";
     // echo "<br>";
@@ -16,7 +31,5 @@
     
     // password_verify takes in the password in the db and the password entered by user, returns 1 or 0 (true or false)
     echo password_verify($input, $hashedPwdInDb);
-  ?>
+  ?> -->
 
-</body>
-</html>
