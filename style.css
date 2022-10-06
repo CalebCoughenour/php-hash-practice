@@ -1,0 +1,12 @@
+#logged-in-card {
+  text-align: center;
+  width: 50%;
+}
+
+#logged-row {
+  justify-content: center;
+}
+
+#logged-container {
+  margin-top: 20px;
+}
