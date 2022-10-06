@@ -3,7 +3,14 @@
 ?>
 
   <main>
-    
+    <div class="container" id="logged-container">
+      <div class="row" id="logged-row">
+        <div class="card"  id="logged-in-card">
+          <p>You are logged out!</p>
+          <p>You are logged in!</p>
+        </div>
+      </div>
+    </div>
   </main>
 
 <?php
