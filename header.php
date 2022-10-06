@@ -1,3 +1,7 @@
+<?php
+  session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,7 +43,7 @@
         </ul>
 
         <form action="includes/login.inc.php" method="post">
-          <input type="text" name="mailuid" placeholder="E-mail/Username">
+          <input type="text" name="mailuid" placeholder="Username or E-mail">
           <input type="password" name="pwd" placeholder="Password">
           <button type="submit" name="login-submit" class="btn btn-sm btn-outline-secondary">Login</button>
         </form>
